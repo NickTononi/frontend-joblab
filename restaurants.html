@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>ARMELLINI</title>
+		<link rel="stylesheet" href="assets/css/style.css">
+		<script src="assets/js/service-restaurants.js"></script>
+		<script>
+			window.addEventListener("load", getRestaurants(), false);
+		</script>
+	</head>
+
+<body>
+
+<!-- SIDEBAR -->
+<div class="sidenav">
+	<div class="divLogo">
+		<img src="assets/img/logo.png" class="logo" alt=""/>
+	</div>
+	<div class="name">
+		<span>Mario Rossi</span>
+	</div>
+	<div class="lastActivity">
+		<em>Last activity 13/12/2017 15:44</em>
+	</div>
+
+</div>
+<!-- SIDEBAR -->
+
+
+<!-- TOOLBAR -->
+<div class="customContainer">
+<div class="topnav" id="myTopnav">
+	<div>
+	<a href="hotels.html">HOTELS</a>
+	<a href="restaurants.html" class="active">RESTAURANTS</a>
+	<a href="flights.html">FLIGHTS</a>
+	<a href="places.html">PLACES</a>
+	<a href="javascript:void(0);" class="icon" onclick="burger()">
+		<img src="assets/img/bars.svg" height="20" alt="" />
+	</a>
+	</div>
+	<div class="infoMobile">
+		<div class="divLogo">
+			<img src="assets/img/logo.png" class="logo" alt=""/>
+		</div>
+		<div class="name">
+			<span>Mario Rossi</span>
+		</div>
+		<div class="lastActivity">
+			<em>Last activity 13/12/2017 15:44</em>
+		</div>
+	</div>
+</div>
+<!-- TOOLBAR -->
+
+
+	<div class="content">	
+		<div id="inner_container_list">
+			<div id="inner_container_list">
+				<div id="inner_container_list_item" class="inner_container_list_item">
+				</div>
+			</div>
+		</div>
+	
+
+
+		<div id="inner_container_detail" style="display:none;">
+			<div class="box-detail">
+				<div class="box-detail-header" id="box-detail-header">
+					<a href="#" onclick="goBack()"><img src="assets/img/arrow_left.png" alt="Back" width="30" class="img-detail-goback"></a>
+					<span class="box-detail-title" id="box-detail-title">Title</span>
+				</div>
+				<div class="box-detail-body" id="box-detail-body">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
