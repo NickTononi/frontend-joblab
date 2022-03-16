@@ -298,6 +298,9 @@ except for the first one ("Home"). Show the link that contains should open and c
 #my-content{
   margin-left: 10px;
 }
+.about, .contacts{
+  margin-left: 20px;
+}
 table{
   width: 100%;
   border-spacing:10px;

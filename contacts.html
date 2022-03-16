@@ -6,10 +6,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>JobLab 2022</title>
 		<link rel="stylesheet" href="assets/css/style.css">
-		<script src="assets/js/service-techs.js"></script>
-		<script>
-			window.addEventListener("load", getTechs(), false);
-		</script>
 	</head>
 
 <body>
@@ -34,9 +30,9 @@
 <div class="customContainer">
 <div class="topnav" id="myTopnav">
 	<div>
-	<a href="index.html" class="active">HOME</a>
+	<a href="index.html">HOME</a>
 	<a href="about.html">ABOUT</a>
-	<a href="contacts.html">CONTACTS</a>
+	<a href="contacts.html" class="active">CONTACTS</a>
 	<a href="javascript:void(0);" class="icon" onclick="burger()">
 		<img src="assets/img/bars.svg" height="20" alt="" />
 	</a>
@@ -53,33 +49,9 @@
 		</div>
 	</div>
 </div>
-<div id="my-content">
-
-</div>
-<!-- TOOLBAR -->
-
-
-	<div class="content">	
-		<div id="inner_container_list">
-			<div id="inner_container_list">
-				<div id="inner_container_list_item" class="inner_container_list_item">
-				</div>
-			</div>
-		</div>
-	
-
-
-		<div id="inner_container_detail" style="display:none;">
-			<div class="box-detail">
-				<div class="box-detail-header" id="box-detail-header">
-					<a href="#" onclick="goBack()"><img src="assets/img/arrow_left.png" alt="Back" width="30" class="img-detail-goback"></a>
-					<span class="box-detail-title" id="box-detail-title">Title</span>
-				</div>
-				<div class="box-detail-body" id="box-detail-body">
-				</div>
-			</div>
-		</div>
-	</div>
+<div class="contacts">
+	<h2>Where are we</h2>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d38759.79430480543!2d10.976228856179294!3d45.453146512351175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477f58b4b8a4683f%3A0x3ae31485496e6357!2sLiceo%20Scientifico%20Girolamo%20Fracastoro!5e0!3m2!1sen!2sit!4v1647427234700!5m2!1sen!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 </div>
 </body>
 </html>
