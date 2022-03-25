@@ -45,10 +45,18 @@ function addTechsToPage(){
 
 function openDetails(id){
   for (var i = 0; i < techs.length; i++) {
-    if(techs[i].id === id){
-      //TODO populate and show vanilla "modal" with details
+    var tech = techs[i];
+    if(tech.id === id){
+      //populate and show vanilla "modal" with details
+      var toAdd = '<h4>'+tech.name+'<img class="close" src="./assets/img/x.png" onclick="closeDetails()"></h4><img class="tech-img" src="'+tech.image+'"><p>Price: '+tech.price+'</p><p>Description: '+tech.longDescription+'</p>';
+      document.querySelector("#details").innerHTML = toAdd;
+      document.querySelector("#details").setAttribute('class','details show');
     }
   }
+}
+
+function closeDetails(){
+  document.querySelector("#details").setAttribute('class','details');
 }
 
 function goBack()

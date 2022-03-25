@@ -367,3 +367,30 @@ td{
   padding-right: 5px;
 }
 
+.details{
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  z-index: 999;
+  left: 0px;
+  background-color: white;
+  padding: 20px;
+}
+
+.details p{
+  max-width: 95%;
+}
+
+.show{
+  display: block;
+}
+
+.close{
+  width: 20px;
+  height: 20px;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
